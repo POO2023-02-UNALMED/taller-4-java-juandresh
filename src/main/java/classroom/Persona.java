@@ -10,9 +10,21 @@ public class Persona {
         totalPersonas = 0;
     }
     
-    public Persona() {
+    public Persona() { //revisar
         this.cedula = 0;
         this.nombre = "Sin nombre"; 
+        totalPersonas++;
+    }
+    
+    public Persona(String nombre, long cedula) {
+        this.cedula = cedula;
+        this.nombre = nombre;
+        totalPersonas++;
+    }
+
+    public Persona(String nombre) {
+        this.nombre = nombre;
+        this.cedula = 1;
         totalPersonas++;
     }
 
