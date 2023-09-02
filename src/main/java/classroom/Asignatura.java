@@ -42,11 +42,11 @@ public class Asignatura {
         this.tipo = tipo;
     }
 
-    public void cambiarDatosInt(int codigoInterno) { //REVISAR
+    public void cambiarDatos(int codigoInterno) { //REVISAR
         this.codigoInterno = codigoInterno;
     }
 
-    public void cambiarDatosExt(int codigoExterno) { //REVISAR
+    public void cambiarDatos(int codigoExterno) { //REVISAR
         this.codigoExterno = codigoExterno;
     }
 
