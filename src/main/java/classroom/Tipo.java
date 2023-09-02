@@ -10,7 +10,7 @@ public enum Tipo {
     }
     
     public String getNombre() {
-    	return nombre
+    	return nombre;
     }
     
 	}
